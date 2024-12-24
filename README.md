@@ -31,7 +31,7 @@ cp .env-template .env
 
 4. Execute the `xmaswishbot.py` script with the CSV file as an argument and the desired language. Example:
 ```bash
-python xmaswishbot.py --csv-file <path-to-csv-file> --language Spanish
+python xmaswishbot.py <path-to-csv-file> --language Spanish
 ```
 
 5. Generate your unique Christmas message!
@@ -40,7 +40,7 @@ python xmaswishbot.py --csv-file <path-to-csv-file> --language Spanish
 
 - OpenAI API key
 - Internet connection
-- Modern web browser
+- Modern web browser, as it will open WhatsApp Web to send the messages
 
 ## Contributing
 
